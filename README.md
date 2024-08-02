@@ -40,14 +40,16 @@ use base.html
   {% bootstrap_javascript %}
 </head>
 ```
-### 10. Django server 
+### 04. Django Create App 
+Get in Command line
 ```
-# How to Run Server
-py manage.py runserver          # https://127.0.0.1:8000/ or https://localhost:8000    
-# How to Change Port
-py manage.py runserver 8888     # https://127.0.0.1:8888/ or https://localhost:8888  
-# How to Stop Server
-ctrl+c
+py manage.py startapp appName
+```
+use settings.py
+```
+INSTALLED_APPS = [
+    'appName',
+]
 ```
 ### 10. Django server 
 ```
