@@ -3,22 +3,14 @@
 Oepn CMD command this line
 ```
 python -m venv env      # python -m envaronment enveronmentName
-```
-Get in Envaronment command this line
-```
 env\scripts\activate
 ```
 ### 02. Django install and create project
 Get install django in command this line
 ```
 pip install django
-```
-Create Project in command this line
-```
-django-admin startproject projectName
-```
-```
-pip install pillow       # for image use this project
+django-admin startproject projectName         # Create Project in command this line
+pip install pillow           # for image use this project
 ```
 ### 03. Django install Bootstrap
 Get in Command line
