@@ -59,3 +59,23 @@ py manage.py runserver 8888     # https://127.0.0.1:8888/ or https://localhost:8
 # How to Stop Server
 ctrl+c
 ```
+### 06. Django HTML template in base.html 
+base.html #main templates
+```
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+{% block content %}
+{% endblock %}
+</body>
+</html>
+```
+index.html #App templates
+```
+{% extends "base.html" %}
+{% block title %} Index page {% endblock %}
+{% block content %}  {% endblock %}
+```
