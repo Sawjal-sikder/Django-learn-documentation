@@ -13,9 +13,8 @@ django-admin startproject projectName         # Create Project in command this l
 pip install pillow           # for image use this project
 ```
 ### 03. Django install Bootstrap
-Get in Command line
 ```
-pip install django-bootstrap-v5     # for use Bootstrap 5
+pip install django-bootstrap-v5
 ```
 use settings.py
 ```
