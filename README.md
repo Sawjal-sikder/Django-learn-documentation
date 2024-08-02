@@ -51,7 +51,15 @@ INSTALLED_APPS = [
     'appName',
 ]
 ```
-### 10. Django server 
+### 05. Django Create Super user 
+Get in Command line
+```
+py manage.py makemigrations
+py manage.py migration
+py manage.py createsuperuser
+```
+
+### 06. Django server 
 ```
 # How to Run Server
 py manage.py runserver          # https://127.0.0.1:8000/ or https://localhost:8000    
