@@ -9,14 +9,15 @@ Get in Envaronment command this line
 env\scripts\activate
 ```
 #### 02. Django install and create project
-
+Get install django in command this line
 ```
-# How to Run Server
-py manage.py runserver          # https://127.0.0.1:8000/ or https://localhost:8000    
-# How to Change Port
-py manage.py runserver 8888     # https://127.0.0.1:8888/ or https://localhost:8888  
-# How to Stop Server
-ctrl+c
+pip install django
+```
+```
+pip install pillow       # for image use this project
+```
+```
+pip install django-bootstrap-v5     # for use Bootstrap 5
 ```
 #### 10. Django server 
 ```
