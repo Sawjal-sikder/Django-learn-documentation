@@ -1,6 +1,5 @@
 # Django Learn Documentation
-### Todo_Project_Django
-
+#### 10. django server 
 ```
 # How to Run Server
 py manage.py runserver          # https://127.0.0.1:8000/ or https://localhost:8000    
