@@ -8,5 +8,4 @@ py manage.py runserver          # https://127.0.0.1:8000/ or https://localhost:8
 py manage.py runserver 8888     # https://127.0.0.1:8888/ or https://localhost:8888  
 # How to Stop Server
 ctrl+c
-
 ```
