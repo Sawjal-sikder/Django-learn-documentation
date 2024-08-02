@@ -13,15 +13,24 @@ Get install django in command this line
 ```
 pip install django
 ```
+Create Project in command this line
+```
+django-admin startproject projectName
+```
 ```
 pip install pillow       # for image use this project
 ```
+### 03. Django install Bootstrap
 ```
 pip install django-bootstrap-v5     # for use Bootstrap 5
+```
+```
 
 INSTALLED_APPS = [
     'bootstrap5',
 ]
+```
+```
 <head>
   <title>{% block title %}{% endblock %}</title>
   {% load bootstrap5 %}
