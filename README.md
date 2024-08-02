@@ -21,15 +21,17 @@ django-admin startproject projectName
 pip install pillow       # for image use this project
 ```
 ### 03. Django install Bootstrap
+Get in Command line
 ```
 pip install django-bootstrap-v5     # for use Bootstrap 5
 ```
+use settings.py
 ```
-
 INSTALLED_APPS = [
     'bootstrap5',
 ]
 ```
+use base.html
 ```
 <head>
   <title>{% block title %}{% endblock %}</title>
